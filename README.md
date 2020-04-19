@@ -8,3 +8,6 @@ Connect 4:
 4. Connect4_AI implémente une intelligence artificielle un peu plus évoluée (défini un score pour chacun de ses coups possibles basé sur la configuration suivante du board : il s'agit d'un minimax de profondeur égale à 1)
 5. Connect4_AIMinimax implémente l'algorithme minimax 
 6. Connect4_AIMinimaxAlphaBeta reprend l'algorithme minimax avec un élagage alpha-beta qui accélère le temps d'execution à chaque tour de l'IA
+
+Ne pas hésiter à changer la profondeur de l'algorithme minimax (le temps de calcul devient cependant assez long au dela de 6 (complexité exponentielle...))
+Il reste un petit bug lors de la fermeture du jeu (il suffit de forcer le programme à se fermer)
